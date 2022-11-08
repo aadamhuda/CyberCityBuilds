@@ -1,9 +1,9 @@
-# CyberCity (v1.2.1)
+# CyberCity (v1.2.2)
 CyberCity is a turn based game set in a cyberpunk setting. You progress through a maze, defeating enemies and picking up clues on your way.
 Collect three clues and you win!
 
 ## How To Play
-You can access the game on your browser via this [link](https://aadamhuda.github.io/gameDevBuilds/v1.2.1/index.html).
+You can access the game on your browser via this [link](https://aadamhuda.github.io/CyberCityBuilds/v1.2.2/index.html).
 
 To play:
 - Use the WASD to move around the environment and your mouse to rotate
@@ -17,6 +17,11 @@ To play:
 - If you pick up a clue it dissapears to show you picked it up
   - Press the 'k' key to pick it up
   - If you pick up three you win!
+  
+### Known Issues:
+The player may respawn at spawn sometimes after battle [Issue #105](https://github.com/aadamhuda/CyberCity/issues/105)
+  - A bug has been found where when the player object exits the battle after a win, the player sometimes does not spawn back in the location it engaged the enemy, but rather spawns at the spawn point.
+  - The trigger is currently unknown and needs to be investigated into.
 
 ## Assets
 [Cinemachine](https://unity.com/unity/features/editor/art-and-design/cinemachine)
@@ -26,8 +31,8 @@ To play:
   - Defines where the enemies can or can't go
 
 ### Previous releases:
-- [Version 1.2.0](https://aadamhuda.github.io/gameDevBuilds/v1.2.0/index.html)
-- [Version 1.1.1](https://aadamhuda.github.io/gameDevBuilds/v1.1.1/index.html)
-- [Version 1.1.0](https://aadamhuda.github.io/gameDevBuilds/v1.1.0/index.html)
-- [Version 1.0.0](https://aadamhuda.github.io/gameDevBuilds/v1.0.0/index.html)
-- [Version 0.0.0](https://aadamhuda.github.io/gameDevBuilds/v0.0.0/index.html)
+- [Version 1.2.1](https://aadamhuda.github.io/CyberCityBuilds/v1.2.1/index.html)
+- [Version 1.2.0](https://aadamhuda.github.io/CyberCityBuilds/v1.2.0/index.html)
+- [Version 1.1.0](https://aadamhuda.github.io/CyberCityBuilds/v1.1.0/index.html)
+- [Version 1.0.0](https://aadamhuda.github.io/CyberCityBuilds/v1.0.0/index.html)
+- [Version 0.0.0](https://aadamhuda.github.io/CyberCityBuilds/v0.0.0/index.html)
